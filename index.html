@@ -135,7 +135,8 @@
 		$('h2').helloWorld({
 			text		: 'Salut, le monde!',
 			color		: '#005dff',
-			fontStyle	: 'italic'
+			fontStyle	: 'italic',
+			complete	: function() { alert('Done!'); }
 		});
 	});
     </script>
